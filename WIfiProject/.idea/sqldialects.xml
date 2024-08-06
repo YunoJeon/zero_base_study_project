@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/wifiproject/BookmarkListServlet.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/wifiproject/BookmarkServlet.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/wifiproject/DBInitializer.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/wifiproject/DeleteHistoryServlet.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/wifiproject/FetchWifiDataServlet.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/wifiproject/FindWifiServlet.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/wifiproject/HistoryServlet.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/wifiproject/NearbyWifiServlet.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/wifiproject/SaveHistoryServlet.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/wifiproject/WifiDetailServlet.java" dialect="SQLite" />
+  </component>
+</project>

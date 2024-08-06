@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 0;
+}
+
+.nav-menu li button {
+    border: none;
+    background: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    font: inherit;
+}
+
+.nav-menu li button:hover {
+    text-decoration: none;
+}
+
+.nav-menu li + li::before {
+    content: "|";
+    margin: 0 5px;
+}
+
+.nav-menu li:last-child::before {
+    content: "|";
+    margin: 0 5px;
+}
+
+.location-inputs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.location-inputs input {
+    padding: 5px;
+}
+
+.location-inputs button {
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.location-inputs button:hover {
+    background-color: #e0e0e0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #00AC6F;
+    color: white;
+}
+
+tfoot td {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.result-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.result-page .container {
+    padding: 20px;
+}
+
+.centered {
+    text-align: center;
+}
